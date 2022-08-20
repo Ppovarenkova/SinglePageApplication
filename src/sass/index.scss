@@ -1,0 +1,36 @@
+@import "../sass/fonts.scss";
+@import "../sass/variables.scss";
+@import "../sass/mixins.scss";
+@import "../sass/header.scss";
+@import "../sass/feautures.scss";
+@import "../sass/works.scss";
+@import "../sass/employees.scss";
+@import "../sass/testimonials.scss";
+@import "../sass/slider.scss";
+@import "../sass/footer.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E5E5E5;
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding:0 15px;
+    z-index: 2000;
+    position: relative;;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}

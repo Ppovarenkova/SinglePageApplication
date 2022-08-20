@@ -1,0 +1,51 @@
+@mixin main-title {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: $_64px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $_white;
+}
+@mixin title {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: $_24px;
+    align-items: center;
+    text-transform: uppercase;
+    color: $_black;
+    text-align: center;
+}
+@mixin title--white {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: $_24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $_white;
+}
+@mixin main-subtitle {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: $_24px;
+    text-align: center;
+    color: $_white;
+}
+@mixin subtitle {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: $_18px;
+    text-align: center;
+    color:$_gray;
+}
+@mixin subtitle--white {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: $_18px;
+    text-align: center;
+    color:$_white;
+}
+@mixin img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

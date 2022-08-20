@@ -1,0 +1,31 @@
+#testimonials {
+    padding: 114px 0;
+    @media (max-width: 1024px){
+        padding: 78px 0;
+    }
+    @media (max-width: 320px){
+        padding: 45px 0;
+        }
+    .testimonials__title {
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: $_30px;
+        text-align: center;
+        margin-bottom: 30px;
+        @media (max-width: 320px){
+            font-size: $_18px;
+            }
+
+    }
+    .testimonials__subtitle {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: $_18px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 47px;
+        @media (max-width: 320px){
+            font-size: $_13px;
+            }
+    }
+}
